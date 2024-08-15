@@ -12,3 +12,7 @@ these spots through autoregressive terms. Our model adopts a hierarchical struct
 accommodate for the missing data within tissues and is further extended to facilitate the
 analysis of multiple correlated samples. To ensure the model’s applicability to datasets of
 varying sizes, we carry out two computational frameworks for Bayesian parameter estimation, tailored to both small and large sample scenarios. 
+
+## Tutorial
+
+A R Markdown of the tutorial is accessible from: coming soon.
