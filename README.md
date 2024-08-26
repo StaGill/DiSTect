@@ -16,3 +16,7 @@ varying sizes, we carry out two computational frameworks for Bayesian parameter 
 ## Tutorial
 
 A R Markdown of the tutorial is accessible from: coming soon.
+
+## Data
+
+The dataset about HER2-positive breast is accessible from https://github.com/almaan/her2st.
