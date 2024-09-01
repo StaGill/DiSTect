@@ -1,0 +1,47 @@
+---
+title: "Tutorial_BayModDSGD"
+author: "Qicheng Zhao"
+date: "2024-09-01"
+output: html_document
+---
+
+
+```{r}
+######## Randomly Generate Sample for tutorial use
+# Set seed for reproducibility
+set.seed(123)
+
+# Sample size
+n <- 300
+
+# True beta coefficients
+beta <- c(1, 2, 3)
+
+# Generate covariates
+X <- matrix(rnorm(n * 3), nrow = n, ncol = 3)
+
+# Generate spatial coordinates
+x_coord <- runif(n, 0, 10)  # x-coordinates between 0 and 10
+y_coord <- runif(n, 0, 10)  # y-coordinates between 0 and 10
+
+# Add spatial coordinates to the covariate matrix
+X <- cbind(X, x_coord, y_coord)
+
+# Calculate linear predictor
+linear_predictor <- X[, 1:3] %*% beta
+
+# Calculate probabilities
+prob <- 1 / (1 + exp(-linear_predictor))
+
+# Generate Y from Bernoulli distribution
+Y <- rbinom(n, 1, prob)
+
+```
+
+
+```{r}
+####Fit the stan object according to our model
+fit<-dsgd_simple(Y,X,300,3)
+```
+
+
