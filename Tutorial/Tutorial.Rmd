@@ -1,0 +1,26 @@
+---
+title: "Tutorial_BayModDSGD"
+author: "Qicheng Zhao"
+date: "2025-02-08"
+output: html_document
+---
+
+The following provides a tutorial for the \textbf{BayModDSGD} package. After importing the package, we will examine the toy dataset as shown below:
+
+```{r}
+library(BayModDSGD)
+data(toy)
+head(toy)
+```
+Subsequently, the dataset will be divided into two components: X for covaraites and Y for outcome.
+```{r}
+x <- toy[, c("x.V1", "x.V2", "x.V3", "x.x_coord", "x.y_coord")]  
+y <- toy$y  
+```
+
+Next, we will apply the function of dsgd_single to run the anslysis:
+
+```{r}
+dsgd_single(y,x,nrow(x),ncol(x)-2) # since the last two columns in x is the spatial information
+```
+
