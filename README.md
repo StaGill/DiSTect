@@ -15,7 +15,7 @@ varying sizes, we carry out two computational frameworks for Bayesian parameter 
 
 ## Tutorial
 
-A R Markdown of the tutorial is accessible from: https://github.com/StaGill/BayModDSGD/tree/main/Tut.
+A R Markdown of the tutorial is accessible from: [https://github.com/StaGill/BayModDSGD/tree/main/Tut](https://github.com/StaGill/BayModDSGD/tree/main/Tutorial).
 
 ## Data
 
