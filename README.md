@@ -13,6 +13,11 @@ accommodate for the missing data within tissues and is further extended to facil
 analysis of multiple correlated samples. To ensure the model’s applicability to datasets of
 varying sizes, we carry out two computational frameworks for Bayesian parameter estimation, tailored to both small and large sample scenarios. 
 
+## Install the package
+To install the R package, first download the file named "BayModDSGD_0.0.0.9000.tar.gz". Then, execute the following command in the R environment to complete the installation: "install.packages("path/to/BayModDSGD_0.0.0.9000.tar.gz", repos = NULL, type = "source")".
+
+
+
 ## Tutorial
 
 A R Markdown of the tutorial is accessible from: [https://github.com/StaGill/BayModDSGD/tree/main/Tut](https://github.com/StaGill/BayModDSGD/tree/main/Tutorial).
