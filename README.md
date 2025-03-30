@@ -1,4 +1,4 @@
-# BayModDSGD
+# DiSTect
 
 ## High-dimensional Bayesian Model for Disease-Specific Gene Detection in Spatial Transcriptomics
 
