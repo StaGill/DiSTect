@@ -20,7 +20,7 @@ To install the R package, first download the file named "BayModDSGD_0.0.0.9000.t
 
 ## Tutorial
 
-A R Markdown of the tutorial is accessible from: [https://github.com/StaGill/BayModDSGD/tree/main/Tut](https://github.com/StaGill/BayModDSGD/tree/main/Tutorial).
+A R Markdown of the tutorial is accessible from: [https://qihuangzhang.github.io/software/DiSTect_tutorial](https://qihuangzhang.github.io/software/DiSTect_tutorial).
 
 ## Data
 
