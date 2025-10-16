@@ -1,7 +1,11 @@
 # DiSTect
 
 ## High-dimensional Bayesian Model for Disease-Specific Gene Detection in Spatial Transcriptomics
-<img width="300" height="300" alt="DiSTect_logo" src="https://github.com/user-attachments/assets/58053101-387b-40de-8967-2408396d6d69" />
+<p align="center">
+  <img width="300" height="300" alt="DiSTect_logo"
+       src="https://github.com/user-attachments/assets/58053101-387b-40de-8967-2408396d6d69" />
+</p>
+
 
 Identifying disease-indicative genes is critical for deciphering disease mechanisms and continues to attract significant interest. Spatial transcriptomics offers unprecedented insights for
 the detection of disease-specific genes by enabling within-tissue contrasts. However, this new
