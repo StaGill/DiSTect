@@ -30,3 +30,18 @@ A R Markdown of the tutorial is accessible from: [https://qihuangzhang.github.io
 ## Data
 
 The dataset about HER2-positive breast is accessible from https://github.com/almaan/her2st.
+
+## How to cite DiSTect
+
+Use the following BibTeX entry:
+
+```bibtex
+@article{zhao2025distect,
+  title={DiSTect: a Bayesian model for disease-associated gene discovery and prediction in spatial transcriptomics},
+  author={Zhao, Qicheng and Deng, Anji and Zhang, Qihuang},
+  journal={Bioinformatics},
+  pages={btaf530},
+  year={2025},
+  publisher={Oxford University Press}
+}
+
