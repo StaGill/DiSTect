@@ -18,6 +18,11 @@ accommodate for the missing data within tissues and is further extended to facil
 analysis of multiple correlated samples. To ensure the model’s applicability to datasets of
 varying sizes, we carry out two computational frameworks for Bayesian parameter estimation, tailored to both small and large sample scenarios. 
 
+## 💡 Advice
+
+If the model runs slowly, try reducing the number of HVGs (highly variable genes) — this can greatly boost the computation speed.
+
+
 ## Installation
 
 The **DiSTect** package requires several core dependencies, including **rstan**, **rjags**, **ggplot2**, **GGally**, **network**, and **sna**.  
