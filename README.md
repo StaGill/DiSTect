@@ -44,7 +44,7 @@ install.packages("rjags", type = "source")
 ```
 
 #### For Windows users
-Please visit the JAGS official website
+Please visit the [JAGS official website](https://mcmc-jags.sourceforge.io/)
  to download and install JAGS manually.
 After that, install rjags in R:
 ```r
