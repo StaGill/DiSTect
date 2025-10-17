@@ -20,16 +20,16 @@ varying sizes, we carry out two computational frameworks for Bayesian parameter 
 
 ## Installation
 
-The **DiSTect** package depends on two core packages: **rstan** and **rjags**.  
-Please ensure both dependencies are installed before installing DiSTect.
+The **DiSTect** package requires several core dependencies, including **rstan**, **rjags**, **ggplot2**, **GGally**, **network**, and **sna**.  
+Please make sure all these packages are installed before proceeding with the installation of **DiSTect**.
 
 ### Step 1. Install Dependencies
 
 #### For all systems
-To install **rstan**, run the following command in R:
+To install the required packages (**rstan**, **ggplot2**, **GGally**, **network**, and **sna**), run the following command in R:
 
 ```r
-install.packages("rstan", dependencies = TRUE)
+install.packages(c("rstan", "ggplot2", "GGally", "network", "sna"), dependencies = TRUE)
 ```
 
 #### For macOS users
