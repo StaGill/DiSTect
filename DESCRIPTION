@@ -1,0 +1,18 @@
+Package: DiSTect
+Title: Bayesian Model for Disease-Specific Gene Detection
+Version: 0.0.0.9000
+Authors@R: 
+    person("Qicheng", "Zhao", , "qicheng.zhao@mail.mcgill.ca", role = c("aut", "cre"))
+Description: Utilized rStan to fit the model for disease-specfic gene detection. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: rstan
+Depends: R (>= 2.10)
+LazyData: true
+NeedsCompilation: no
+Packaged: 2025-02-19 20:30:45 UTC; 79047
+Author: Qicheng Zhao [aut, cre]
+Maintainer: Qicheng Zhao <qicheng.zhao@mail.mcgill.ca>
