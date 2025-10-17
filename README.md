@@ -18,9 +18,51 @@ accommodate for the missing data within tissues and is further extended to facil
 analysis of multiple correlated samples. To ensure the model’s applicability to datasets of
 varying sizes, we carry out two computational frameworks for Bayesian parameter estimation, tailored to both small and large sample scenarios. 
 
-## Install the package
-To install the R package, first download the file named "BayModDSGD_0.0.0.9000.tar.gz". Then, execute the following command in the R environment to complete the installation: "install.packages("path/to/BayModDSGD_0.0.0.9000.tar.gz", repos = NULL, type = "source")".
+## Installation
 
+The **DiSTect** package depends on two core packages: **rstan** and **rjags**.  
+Please ensure both dependencies are installed before installing DiSTect.
+
+### Step 1. Install Dependencies
+
+#### For all systems
+To install **rstan**, run the following command in R:
+
+```r
+install.packages("rstan", dependencies = TRUE)
+```
+
+#### For macOS users
+First, install JAGS via Homebrew in your terminal:
+```bash
+brew install jags
+```
+
+Then install rjags from source in R:
+```r
+install.packages("rjags", type = "source")
+```
+
+#### For Windows users
+Please visit the JAGS official website
+ to download and install JAGS manually.
+After that, install rjags in R:
+```r
+install.packages("rjags")
+```
+
+### Step 2. Install DiSTect
+Once all dependencies are installed, use the following commands to install DiSTect from GitHub:
+```r
+# install devtools if not already installed
+install.packages("devtools")
+
+# install the DiSTect package
+devtools::install_github("StaGill/DiSTect")
+
+# load the package
+library(DiSTect)
+```
 
 
 ## Tutorial
